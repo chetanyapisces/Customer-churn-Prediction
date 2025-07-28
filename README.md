@@ -55,7 +55,7 @@ The final RandomForestClassifier achieved the following performance on the test 
 The model demonstrated a strong ability to identify customers who are genuinely at risk of churning (high Recall), which is crucial for the business to minimize missed opportunities for retention.
 
 ## Technologies Used
-* Python 3.x
+* Python 3.13.5
 * Pandas for data manipulation
 * NumPy for numerical operations
 * Matplotlib & Seaborn for data visualization
@@ -65,8 +65,8 @@ The model demonstrated a strong ability to identify customers who are genuinely 
 ## How to Run This Project
 
 1.  Clone the repository:
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/chetanyapisces/Customer-churn-Prediction.git
+    cd Customer-churn-Prediction
 
 2.  Create a virtual environment (optional but recommended):
     python -m venv venv
@@ -74,8 +74,7 @@ The model demonstrated a strong ability to identify customers who are genuinely 
 
 3.  Install the required libraries:
     pip install -r requirements.txt
-    (Note: Create a requirements.txt file in your project by running `pip freeze > requirements.txt`)
-
+    
 4.  Run the analysis:
-    Open and run the Jupyter Notebook `churn_prediction.ipynb` or execute the Python script.
+    Open and run the Jupyter Notebook `Churn_Prediction.ipynb` or execute the Python script.
     jupyter notebook churn_prediction.ipynb
